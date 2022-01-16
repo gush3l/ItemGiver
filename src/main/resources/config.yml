@@ -1,0 +1,27 @@
+Messages:
+  command-not-found: "&cUsage: /itemsgiver help"
+  not-for-console: "&cYou cannot execute this command in the console!"
+  plugin-reloaded: "&aPlugin reloaded successfully!"
+  no-permission: "&cYou cannot do that!"
+  help:
+    - "&aItemGiver commands:"
+    - "&6- &f/itemgiver create <name>"
+    - "&6- &f/itemgiver set <name>"
+    - "&6- &f/itemgiver <player> <name> <amount>"
+    - "&6- &f/itemgiver reload"
+    - "&6- &f/itemgiver list"
+  list:
+    items-list: "&aItems list: %itemsList%"
+    no-items: "&cNo items have been found..."
+  create:
+    already-exists: "&cThis item already exists... Alias: %itemName%"
+    item-created: "&aThe item has been created successfully! Alias: %itemName%"
+  set:
+    item-non-existent: "&cAn item by this alias does not exist! Alias: %itemName%"
+    item-set: "&aThe item has been set successfully! Alias: %itemName%"
+  give:
+    player-not-found: "&cThe player has not been found! Player: %player%"
+    item-non-existent: "&cAn item by this alias does not exist! Alias: %itemName%"
+    send-message-to-target: true
+    success-target: "&aYou were given an item %itemName% %itemAmount% %itemMaterial%"
+    success: "&aThe item has been given successfully! Item: %itemName% %itemAmount% %itemMaterial%"

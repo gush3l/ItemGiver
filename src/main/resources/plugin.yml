@@ -1,0 +1,12 @@
+name: ItemGiver
+version: '${project.version}'
+main: me.gush3l.itemgiver.ItemGiver
+api-version: 1.17
+authors: [ gush3l ]
+commands:
+  itemgiver:
+    description: "Main plugin command!"
+    aliases:
+      - itemgive
+      - givekey
+      - key
